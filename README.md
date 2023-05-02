@@ -1,9 +1,11 @@
 # WIS_BrowserAnimation
 Create animated icons for the LiveCode browser widget
 
-NB! Only seems to work well on Mac, at the moment. Researching fix for crappy Windows...
+Version 1.0.2
+Works well on Mac, slightly unstable on Windows (may cause LC crash)
 
-Version 1.0.1
+To see the browser animations work in a web deployment, see:
+https://wheninspace.com/browseranimation/
 
 ### What?
 This stack lets you create html code for displaying an image in a browser widget, with nifty animations.
@@ -37,3 +39,4 @@ Yes! Tested both as web deployment (LC 10 dp 5) and as Mac standalone (LC 9.6.8)
 - Resizing SVGs. The svg path must be transformed to the new size, and I don't know how to do that. Research in progress! But you can try resizing the browser widget, sometimes that works...
 - Using LC default SVGs. Just using the iconPath is not enough, apparently. Research in progress!
 - Changing the color of multi-colored SVG files. That's too complex. Use the color chooser only with mono-colored SVGs.
+- On Windows, handling multiple browser widgets on one card seems a bit unstable. 
