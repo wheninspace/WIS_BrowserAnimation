@@ -1,6 +1,8 @@
 # WIS_BrowserAnimation
 Create animated icons for the LiveCode browser widget
 
+NB! Only seems to work well on Mac, at the moment. Researching fix for crappy Windows...
+
 Version 1.0.0
 
 ### What?
