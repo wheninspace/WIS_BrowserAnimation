@@ -3,7 +3,7 @@ Create animated icons for the LiveCode browser widget
 
 NB! Only seems to work well on Mac, at the moment. Researching fix for crappy Windows...
 
-Version 1.0.0
+Version 1.0.1
 
 ### What?
 This stack lets you create html code for displaying an image in a browser widget, with nifty animations.
