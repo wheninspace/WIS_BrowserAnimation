@@ -1,10 +1,12 @@
 # WIS_BrowserAnimation
 Create animated icons for the LiveCode browser widget
 
-Version 1.0.2
+Version 1.0.2 
+
 Works well on Mac, slightly unstable on Windows (may cause LC crash)
 
 To see the browser animations work in a web deployment, see:
+
 https://wheninspace.com/browseranimation/
 
 ### What?
