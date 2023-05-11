@@ -1,8 +1,16 @@
 # WIS_BrowserAnimation
-Create animated icons for the LiveCode browser widget
+Create animated icons and text for the LiveCode browser widget
 
-## Version 1.0.3 
-Added the possiblity to set the duration of animations.
+### Version 1.0.4
+<ul>
+<li>More efficient CSS code handling - only CSS code needed for the chosen animations is now included</li>
+<li>Added the possibility to animate text</li>
+</ul>
+
+### Version 1.0.3 
+<ul>
+<li>Added the possiblity to set the duration of animations.</li>
+</ul>
 
 Works well on Mac, possibly slightly unstable on Windows (may cause LC crash)
 
