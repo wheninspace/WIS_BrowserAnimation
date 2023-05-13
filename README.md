@@ -1,6 +1,12 @@
 # WIS_BrowserAnimation
 Create animated icons and text for the LiveCode browser widget
 
+### Version 1.0.5
+<ul>
+<li>Added possibility to copy the code when running the web application (note that a urlDecode() must be done on the pasted text in LiveCode before using it)</li>
+<li>Added possibility to enter an RGB value into the color field (works in the web application too)</li>
+</ul>
+
 ### Version 1.0.4
 <ul>
 <li>More efficient CSS code handling - only CSS code needed for the chosen animations is now included</li>
