@@ -1,6 +1,12 @@
 # WIS_BrowserAnimation
 Create animated icons and text for the LiveCode browser widget
 
+### Version 1.0.6
+<ul>
+<li>The number of iterations can now be set. -1 means infinite.</li>
+<li>Added possibility to enter a url. Link directly to an imagefile on the web to animate it. Or an entire site... <br>NB! If you use a widget animated by url in one of your apps, it must naturally have access to the url destination for it to work.</li>
+</ul>
+
 ### Version 1.0.5
 <ul>
 <li>Added possibility to copy the code when running the web application (note that a urlDecode() must be done on the pasted text in LiveCode before using it)</li>
@@ -36,14 +42,15 @@ Naturally, the feature can be used for any kind of animation effect needed. The 
 As of LC 10, it can be transparent though, which makes it easier to integrate into any app layout.
 
 ### How?
-The html code that is created is completely self-sufficient, meaning that you can copy the browser widget to another stack and it will keep working. Image data is imported and stuffed right into the html code, so access to the original image file is not necessary after code creation.
+The html code that is created is completely self-sufficient, meaning that you can copy the browser widget to another stack and it will keep working. Image data is imported and stuffed right into the html code, so access to the original image file is not necessary after code creation, unless a url is used.
 
 ### Which images?
 The types of images currently supported are:
 - "Built-in" css icons
 - SVG, PNG, JPG
+- Any valid url to a file, or website
 
-By default, the stack looks for image files in the folder where the stack is located. You can choose another folder by clicking the folder icon.
+By default, the stack looks for image files in the folder where the stack is located. You can choose another folder by clicking the folder icon (on desktop, not web).
 
 ### How do animations work?
 The animations are css coded. You can choose one animation or combine two of them, for various results ranging from nice to disturbing... 
