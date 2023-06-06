@@ -1,6 +1,14 @@
 # WIS_BrowserAnimation
 Create animated icons and text for the LiveCode browser widget
 
+### Version 2.0
+#### A major update!
+<ul>
+<li>12 modern spinners have been added, adapted for even easier use in your LC projects</li>
+<li>Ability to set the background color of the widget, to make it blend in with whatever background is below it, when transparency is not supported</li>
+<li>The widget now contains script that can be called, for changing the color, after you have copied it to your own stack</li>
+</ul>
+
 ### Version 1.0.6
 <ul>
 <li>The number of iterations can now be set. -1 means infinite.</li>
