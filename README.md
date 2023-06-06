@@ -1,5 +1,8 @@
 # WIS_BrowserAnimation
 Create animated icons and text for the LiveCode browser widget
+To see the browser animations work in a web deployment, see:
+<br>
+https://wheninspace.com/browseranimation/
 
 ### Version 2.0
 #### A major update!
