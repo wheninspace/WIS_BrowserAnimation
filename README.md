@@ -1,8 +1,15 @@
 # WIS_BrowserAnimation
-Create animated icons and text for the LiveCode browser widget
-To see the browser animations work in a web deployment, see:
+Create spinners and other animated icons and text for the LiveCode browser widget.
+<br>
+Primarily designed for use as a stack within the LiveCode IDE, but almost all the functionality can be tested in this web deployed version:
 <br>
 https://wheninspace.com/browseranimation/
+
+### Version 2.0.1
+<ul>
+<li>Added possibility to set pure spinner colors on web</li>
+<li>Improved possibility to copy spinner code and script on web (no more urlDecode needed)</li>
+</ul>
 
 ### Version 2.0
 #### A major update!
