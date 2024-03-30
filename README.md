@@ -80,3 +80,7 @@ Yes! Tested both as web deployment (LC 10 dp 5) and as Mac and Win standalones (
 ### Acknowledgements
 css/html code created by https://loading.io <br>
 rgbToHex function created by https://github.com/Ferruslogic
+
+This tool is free of charge, but if you like my work and want to suppport it you can buy me a coffee:
+https://www.buymeacoffee.com/riu9yazy7p
+
